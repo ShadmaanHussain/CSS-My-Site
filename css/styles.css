@@ -1,0 +1,164 @@
+/* ---------------------------------------Tag Selectors--------------------------------------- */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #A6E3E9;
+  width: 5%;
+}
+
+/* ---------------------------------------Class Selectors--------------------------------------- */
+/* top container containing heading (my name and disc.) and some images */
+.top-container {
+  background-color: #E3FDFD;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* Cloud image inside top container */
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/* h2 sub heading inside top-container */
+.sub-head {
+  font-weight: normal;
+}
+
+/* span element used under header */
+.under {
+  text-decoration: underline;
+}
+
+/* bottom cloud image inside the top-container */
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* Div for profile section under middle-container div */
+.profile {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* Profile image in profile section (profile div) */
+.profile-img {
+  width: 15%;
+}
+
+/* Para (for disc.) under profile div */
+.profile-desc {
+  width: 50%;
+  margin: auto;
+}
+
+/* Div for skills section under middle-container */
+.skills {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* skill-rows div(s) under sills section */
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+/* image for 1st skill */
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* image for 2nd skill */
+.puzzle-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* contact-me div under middle-container */
+.contact-me {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* button under contact-me div */
+.btn {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 50px;
+  background-color: #71C9CE;
+  border-style: solid;
+  border-color: #71C9CE;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.btn:hover {
+  color: #71C9CE;
+  background-color: white;
+}
+
+/* bottom-container div for social links and footer */
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #66BFBF;
+}
+
+/* social links under bottom-container */
+.footer-link {
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+/* para under bottom-container for copyright mark */
+.foot-para {
+  margin-top: 30px;
+  color: #EAF6F6;
+  font-size: 0.85rem;
+}

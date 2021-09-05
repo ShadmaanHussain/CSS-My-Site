@@ -1,0 +1,14 @@
+.head-container {
+  height: 500px;
+  background-color: gold;
+  position: relative;
+}
+
+.cld {
+  position: absolute;
+  right: 100px;
+}
+
+body {
+  margin: 0;
+}
