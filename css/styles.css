@@ -162,3 +162,11 @@ hr {
   color: #EAF6F6;
   font-size: 0.85rem;
 }
+
+.icon {
+  filter: invert(36%) sepia(59%) saturate(2522%) hue-rotate(157deg) brightness(96%) contrast(87%);
+}
+
+.icon:hover {
+  filter: invert(100%) sepia(49%) saturate(442%) hue-rotate(319deg) brightness(116%) contrast(110%);
+}
